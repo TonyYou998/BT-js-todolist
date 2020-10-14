@@ -31,7 +31,7 @@ getElement("addItem").addEventListener("click", function () {
     taoList(taskList.arr);
 
     setLocoalStorage();
-
+    getElement("newTask").value = "";
 
 
 
